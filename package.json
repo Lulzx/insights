@@ -1,0 +1,32 @@
+{
+  "name": "shadcn-vue-unocss-starter",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@unocss/reset": "^0.58.5",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.0",
+    "lucide-vue-next": "0.356.0",
+    "radix-vue": "^1.5.1",
+    "tailwind-merge": "^2.2.1",
+    "unplugin-vue-router": "^0.8.4",
+    "vue": "^3.4.21",
+    "vue-router": "4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.25",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "typescript": "^5.4.2",
+    "unocss": "^0.58.5",
+    "unocss-preset-animations": "^1.0.1",
+    "unocss-preset-shadcn": "^0.2.3",
+    "vite": "^5.1.5",
+    "vue-tsc": "^2.0.6"
+  }
+}
