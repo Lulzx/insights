@@ -50,7 +50,7 @@
                                             <td class="px-6 py-4 flex items-center gap-x-4 whitespace-nowrap align-top">
                                                 <img :src="getImageUrl(result.url)" loading="eager" decoding="sync"
                                                     alt="favicon" class="h-8 w-8 rounded-full">
-                                                <a class="flex flex-col" :href="result.url">
+                                                <a class="flex flex-col" :href="result.url" target="_blank">
                                                     <span
                                                         class="text-sm font-semibold text-gray-800 dark:text-gray-200">{{
                                                         result.title }}</span>
