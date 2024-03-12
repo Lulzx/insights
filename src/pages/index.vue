@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="bg-light">
         <div class="h-screen flex flex-col pb-6">
             <div class="h-full flex flex-col justify-center">
                 <div class="-mt-20 max-w-4xl w-full text-center mx-auto px-4 sm:px-6 lg:px-8">
@@ -15,7 +15,7 @@
                 <div class="mt-10 w-full max-w-lg mx-auto px-4 sm:px-6 lg:px-8">
                     <div class="relative">
                         <input type="text" v-model="query" @keydown.enter.prevent="search" autofocus
-                            class="p-4 block w-full border-dark bg-gray-100 outline-dark rounded-full text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400 dark:focus:ring-gray-600"
+                            class="p-4 block w-full border-dark bg-white shadow-md outline-dark rounded-full text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400 dark:focus:ring-gray-600"
                             placeholder="what's on your mind?">
                         <div class="absolute top-1/2 end-2 -translate-y-1/2">
                             <button type="button" @click="search"
