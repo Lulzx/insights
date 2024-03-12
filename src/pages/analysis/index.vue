@@ -76,14 +76,14 @@
     </div>
 </template>
 
-<script setup lang="ts">
+<script setup>
 import ky from 'ky';
 import { ref } from 'vue';
 
 const query = ref('');
 const results = ref([]);
 
-const getImageUrl = (url: string) => {
+const getImageUrl = (url) => {
     return `https://www.google.com/s2/favicons?domain=${url}&sz=64`;
 }
 
